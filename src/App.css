@@ -1,0 +1,14 @@
+.App {
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.AppDark {
+  text-align: center;
+  background: black;
+}
+
+.AppLigth {
+  text-align: center;
+}
