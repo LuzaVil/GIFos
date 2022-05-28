@@ -9,7 +9,7 @@ const Resultado = () => {
     <div className={styles.resultado}>
       {gifs.map((gif) => {
         return (
-          <a href={gif.url} target="_blank">
+          <a href={gif.url} target="_blank" rel="noreferrer">
             <img src={gif.images.downsized_medium.url} alt="" />
           </a>
         );

@@ -1,3 +1,4 @@
+/* eslint-disable array-callback-return */
 import React, { useEffect, useState, useContext } from "react";
 import styles from "./Busqueda.module.css";
 import logo3 from "../../assets/images/icon-search.svg";
@@ -53,6 +54,7 @@ const Busqueda = () => {
         setGifs(data2.data);
         // console.log(data2.data);
       });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [gifSugerido]);
 
   //---------------------------Función evento---------------------------
