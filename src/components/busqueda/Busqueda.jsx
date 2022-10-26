@@ -44,7 +44,7 @@ const Busqueda = () => {
   //---------------------------Segunda Url------------------------------
   useEffect(() => {
     let url2 = fetch(
-      `https://api.giphy.com/v1/gifs/search?api_key=nUNTIQy4xKKNgSXeNU5e11JARe54a9Lo&q=${gifSugerido}&limit=25&offset=0&rating=g&lang=en`
+      `https://api.giphy.com/v1/gifs/search?api_key=nUNTIQy4xKKNgSXeNU5e11JARe54a9Lo&q=${gifSugerido}&limit=15&offset=0&rating=g&lang=en`
     );
     url2
       .then((res2) => {
